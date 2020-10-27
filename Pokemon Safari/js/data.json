@@ -253,7 +253,7 @@
   },
   {
     "Nat":29,
-    "Pokemon":"Nidoran-m",
+    "Pokemon":"Nidoran-F",
     "Spe":41,
     "Total":275,
     "Type_I":"Poison",
@@ -280,7 +280,7 @@
   },
   {
     "Nat":32,
-    "Pokemon":"Nidoran-f",
+    "Pokemon":"Nidoran-M",
     "Spe":50,
     "Total":273,
     "Type_I":"Poison",

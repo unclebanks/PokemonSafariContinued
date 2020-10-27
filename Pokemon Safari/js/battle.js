@@ -211,20 +211,9 @@ function initializeVars(){
 		if (shiny) {
 			if (localStorage.style == '2d')
 			return '/images/pokemon/shinypokemon/' + s + '.png';
-			else
-			return 'http://www.serebii.net/Shiny/XY/' + s + '.png';
 		}
 		if (localStorage.style == '2d')
 		return '/images/pokemon/pokemon/' + s + '.png';
-		else
-		return 'http://www.serebii.net/xy/pokemon/' + s + '.png';
-	};
-
-	var audiofy = function(e) {
-		var s = '' + e;
-		while (s.length < 3)
-		s = '0' + s;
-		return 'http://www.upokecenter.com/images/cries/' + s + 'Cry.mp3';
 	};
 
 	var throwGreatBall = 

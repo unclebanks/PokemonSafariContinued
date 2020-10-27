@@ -1,9 +1,16 @@
 @charset "UTF-8";
 /* Kanto */
-.forest   { background-image: url(/images/big_sprites/forest.png); }
-.tunnel   { background-image: url(/images/big_sprites/tunnel.png); }
-.beach    { background-image: url(/images/big_sprites/beach.png); }
-.city     { background-image: url(/images/big_sprites/city.png); }
+.vforest   { background-image: url(/images/backgrounds/kanto/vforest.png); }
+.mtmoon   { background-image: url(/images/backgrounds/kanto/mtmoon.png); }
+.rtunnel    { background-image: url(/images/backgrounds/kanto/rtunnel.png); }
+.digcave     { background-image: url(/images/backgrounds/kanto/digcave.png); }
+.kszone     { background-image: url(/images/backgrounds/kanto/kszone.png); }
+.pwrplnt     { background-image: url(/images/backgrounds/kanto/pwrplnt.png); }
+.sfisle     { background-image: url(/images/backgrounds/kanto/sfisle.png); }
+.pkmnmnsn     { background-image: url(/images/backgrounds/kanto/pkmnmnsn.png); }
+.kvroad     { background-image: url(/images/backgrounds/kanto/kvroad.png); }
+.ccave     { background-image: url(/images/backgrounds/kanto/ccave.png); }
+.fish     { background-image: url(/images/backgrounds/kanto/fish.png); }
 
 /* Johto */
 .park     { background-image: url(/images/big_sprites/park.png); }

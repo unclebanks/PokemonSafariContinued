@@ -1,7 +1,7 @@
 function getLocation() {
 	switch(localStorage._location){
-		case 'park':
-			_location = 'park';
+		case 'vforest':
+			_location = 'vforest';
 			break;
 		case 'forest' || 'jungle':
 			_location = 'forest';
@@ -45,16 +45,17 @@ document.addEventListener('DOMContentLoaded', function () {
 var displayZone = function (zoneName){
 	//move these _locations into a separate file
 	var _locations = {
-	"forest"   : "Feldgrau Forest",
-	"tunnel"   : "Taupe Tunnel",
-	"beach"    : "Burnt-Sienna Beach",
-	"city"     : "Chrome City",
-	"park"     : "Peony Park",
-	"glacier"  : "Galanthus Glacier",
-	"tower"    : "Thistle Tower",
-	"jungle"   : "Jungle",
-	"sea"      : "Miracle Sea",
-	"mountain" : "Mt. Chimney"
+	"vforest"  : "Viridian Forest",
+	"mtmoon"   : "Mt. Moon",
+	"rtunnel"  : "Rock Tunnel",
+	"digcave"  : "Digletts Cave",
+	"kszone"   : "Safari Zone",
+	"pwrplnt"  : "Power Plant",
+	"sfisle"   : "Seafoam Island",
+	"pkmnmnsn" : "Pokemon Mansion",
+	"kvroad"   : "Victory Road",
+	"ccave"    : "Cerulean Cave",
+	"fish"     : "Fishing"
 	};
 
 	var _locationName = document.getElementById("location_name");
