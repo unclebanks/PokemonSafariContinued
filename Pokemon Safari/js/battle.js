@@ -206,16 +206,16 @@ function initializeVars(){
 
 	var urlifyNumber = function(e) {
 		var s = '' + e;
-		while (s.length < 3)
+		while (s.length < 1)
 		s = '0' + s;
 		if (shiny) {
 			if (localStorage.style == '2d')
-			return 'http://www.serebii.net/Shiny/BW/' + s + '.png';
+			return '/images/pokemon/shinypokemon/' + s + '.png';
 			else
 			return 'http://www.serebii.net/Shiny/XY/' + s + '.png';
 		}
 		if (localStorage.style == '2d')
-		return 'http://www.serebii.net/blackwhite/pokemon/' + s + '.png';
+		return '/images/pokemon/pokemon/' + s + '.png';
 		else
 		return 'http://www.serebii.net/xy/pokemon/' + s + '.png';
 	};
