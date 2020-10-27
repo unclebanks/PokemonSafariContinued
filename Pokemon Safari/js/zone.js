@@ -1,17 +1,21 @@
 var setup = function(e) {
 	var container = document.getElementById("container");
-	
-	var dex = JSON.parse(localStorage.pokedex);
-	if ((Object.keys(dex).length) > 75) { // Add Chrome City
-		container.appendChild(createZone('city', 'Chrome City'));
-	}
 
 	var trainer = JSON.parse(localStorage.trainer);
 	if (trainer.jticket) {
-		container.appendChild(createHeader('Johto Tour'));
-		container.appendChild(createZone('park', 'Peony Park'));
-		container.appendChild(createZone('glacier', 'Galanthus Glacier'));
-		container.appendChild(createZone('tower', 'Thistle Tower'));
+		container.appendChild(createHeader('Johto Region'));
+		container.appendChild(createZone('npark', 'National Park'));
+		container.appendChild(createZone('ruinsoa', 'Ruins of Alph'));
+		container.appendChild(createZone('iforest', 'Ilex Forest'));
+		container.appendChild(createZone('ttower', 'Tin Tower'));
+		container.appendChild(createZone('wisle', 'Whirl Islands'));
+		container.appendChild(createZone('mmortar', 'Mt. Mortar'));
+		container.appendChild(createZone('lakerage', 'Lake of Rage'));
+		container.appendChild(createZone('icepath', 'Ice Path'));
+		container.appendChild(createZone('dcave', 'Dark Cave'));
+		container.appendChild(createZone('msilver', 'Mt. Silver'));
+		container.appendChild(createZone('jvroad', 'Victory Road'));
+		container.appendChild(createZone('jfish', 'Fishing'));
 	}
 		if (trainer.hticket) {
 		container.appendChild(createHeader('Hoenn Tour'));

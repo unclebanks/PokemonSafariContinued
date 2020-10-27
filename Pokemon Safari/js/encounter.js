@@ -31,7 +31,7 @@ function getLocation() {
 var start = function(e) {
 	if(!localStorage.trainer) { update(); }
  	_location = getLocation();
-  	chrome.browserAction.setIcon({"path":"/images/"+_location+ ".png"});
+  	chrome.browserAction.setIcon({"path":"/images/backgrounds/"+_location+ ".png"});
 	chrome.alarms.create("", {"delayInMinutes":1});
 };
 

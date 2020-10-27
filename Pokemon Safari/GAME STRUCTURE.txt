@@ -1,0 +1,26 @@
+BATTLE.JS
+
+	*Contains directory to dictate small icon for level
+		*EX: Viridian forest is "forest" no matter the background
+		
+		
+		
+ZONE.JS
+
+	*
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+HTML
+
+	*ZONE.HMTL
+	
+		*

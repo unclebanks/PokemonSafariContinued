@@ -13,9 +13,18 @@
 .fish     { background-image: url(/images/backgrounds/kanto/fish.png); }
 
 /* Johto */
-.park     { background-image: url(/images/big_sprites/park.png); }
-.glacier  { background-image: url(/images/big_sprites/glacier.png); }
-.tower    { background-image: url(/images/big_sprites/tower.png); }
+.npark     { background-image: url(/images/backgrounds/johto/npark.png); }
+.ruinsoa  { background-image: url(/images/backgrounds/johto/ruinsoa.png); }
+.iforest    { background-image: url(/images/backgrounds/johto/iforest.png); }
+.ttower     { background-image: url(/images/backgrounds/johto/ttower.png); }
+.wisle  { background-image: url(/images/backgrounds/johto/wisle.png); }
+.mmortar    { background-image: url(/images/backgrounds/johto/mmortar.png); }
+.lakerage    { background-image: url(/images/backgrounds/johto/lakerage.png); }
+.icepath  { background-image: url(/images/backgrounds/johto/icepath.png); }
+.dcave    { background-image: url(/images/backgrounds/johto/dcave.png); }
+.msilver    { background-image: url(/images/backgrounds/johto/msilver.png); }
+.jvroad  { background-image: url(/images/backgrounds/johto/jvroad.png); }
+.jfish    { background-image: url(/images/backgrounds/johto/jfish.png); }
 
 /* Hoenn */
 .jungle   { background-image: url(/images/big_sprites/jungle.png); }

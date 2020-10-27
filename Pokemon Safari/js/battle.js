@@ -27,8 +27,8 @@ var JSONHabitatsUrl = chrome.extension.getURL('/js/habitats.json');
 
 function getLocation() {
 	switch(localStorage._location){
-		case 'park':
-			_location = 'park';
+		case 'forest':
+			_location = 'forest';
 			break;
 		case 'forest' || 'jungle':
 			_location = 'forest';

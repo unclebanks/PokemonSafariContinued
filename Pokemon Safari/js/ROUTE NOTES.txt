@@ -196,5 +196,145 @@ KANTO
 			- Kabutops, 141
 			
 			
-			
 		
+JOHTO
+
+	DUNGEONS
+	
+		National Park => npark
+		
+			- Sentret, 161
+			- Hoothoot, 163
+			- Hoppip, 187
+			- Skiploom, 188
+			- Sunkern, 191
+			- Sunflora, 192
+			- Yanma, 193
+			- Snubbul, 209
+			- Granbull, 210
+			- Scizor, 212
+			- Miltank, 241
+			
+		RUINS OF ALPH => ruinsoa
+		
+			- Unown (A-Z), 201
+			- Natu, 177
+			- Xatu, 188
+			- Aipom, 190
+			- Murkrow, 198
+			- Smeargle, 235
+			
+		ILEX FOREST => iforest
+		
+			- Chikorita, 152
+			- Bayleef, 153
+			- Ledyba, 165
+			- Ledian, 166
+			- Spinarak, 167
+			- Ariados, 168
+			- Bellossom, 182
+			- Jumpluff, 189
+			- Pineco, 204
+			- Forretress, 205
+			- Heracross, 214
+			- Celebi, 251
+			
+		TIN TOWER => ttower
+		
+			- Cyndaquil, 155
+			- Quilava, 156
+			- Shuckle, 213
+			- Porygon2, 233
+			- Elekid, 239
+			- Magby, 240
+			- Raikou, 243
+			- Entei, 244
+			- Suicune, 245
+			- Ho-Oh, 250
+			-
+			
+		WHIRL ISLANDS => wisle
+		
+			- Totodile, 158
+			- Croconaw, 159
+			- Azumarill, 184
+			- Politoad, 186
+			- Slowking, 199
+			- Kingdra, 230
+			- Lugia, 249
+			
+		MT. MORTAR => mmortar
+		
+			- Pichu, 172
+			- Cleffa, 173
+			- Igglybuff, 174
+			- Togepi, 175
+			- Slugma, 218
+			- Magcargo, 219
+			- Tyrogue, 236
+			- Hitmontop, 237
+			- 
+			
+		LAKE OF RAGE => lakerage
+		
+			- Mareep, 179
+			- Flaafy, 180
+			- Girafarig, 203
+			- Gligar, 207
+			- Houndour, 228
+			- Stantler, 234
+			
+		ICE PATH => icepath
+		
+			- Sneasel, 215
+			- Swinub, 220
+			- Piloswine, 221
+			- Delibird, 225
+			- Smoochum, 238
+			
+		DARK CAVE => dcave
+		
+			- Furret, 162
+			- Noctowl, 164
+			- Wobbufett, 202
+			- Dunsparce, 206
+			- Steelix, 208
+			- Teddiursa, 216
+			- Phanpy, 231
+			-
+			-
+			
+		MT. SILVER => msilver
+		
+			- Meganium, 154
+			- Typhlosion, 157
+			- Feraligatr, 160
+			- Sudowoodo, 185
+			- Ursaring, 217
+			- Donphan
+			- Misdreavus, 200
+			- Tyranitar, 248
+			
+		JOHTO VICTORY ROAD => jvroad
+		
+			- Crobat, 169
+			- Espeon, 196
+			- Umbreon, 197
+			- Skarmory, 227
+			- Houndoom, 229
+			- Blissey, 242
+			- Larvitar, 246
+			- Pupitar, 247
+			-
+			
+		JOHTO FISHING => jfish
+		
+			- Chinchou, 170
+			- Lanturn, 171
+			- Marill, 183
+			- Wooper, 194
+			- Qwilfish, 211
+			- Corsola, 222
+			- Remoraid, 223
+			- Octillery, 224
+			- Mantine, 226
