@@ -1,0 +1,200 @@
+KANTO
+
+	DUNGEONS
+	
+		VIRIDIAN FOREST => vforest
+		
+			- Caterpie, 10
+			- Metapod, 11
+			- Weedle, 13
+			- Kakuna, 14
+			- Pidgey, 16
+			- Pidgeotto, 17
+			- Spearow, 21
+			- Fearow, 22
+			- Pikachu, 25
+			- Bulbasaur, 1
+			- Ivysaur, 2
+			- Oddish, 43
+			- Gloom, 44
+			- Bellsprout, 69
+			- Weepinbell, 70
+			
+		MT. MOON => mtmoon
+		
+			- Sandshrew, 27
+			- Clefairy, 35
+			- Clefable, 36
+			- NidoranF, 29
+			- NidoranM, 32
+			- Meowth, 52
+			- Eevee, 133
+			- Zubat, 41
+			- Paras, 46
+			- Geodude, 74
+			- Onix, 95
+			
+		ROCK TUNNEL => rtunnel
+		
+			- Zubat, 41
+			- Geodude, 74
+			- Machop, 66
+			- Onix, 95
+			- Cubone, 104
+			- Mankey, 56
+			- Charmander, 4
+			- Charmeleon, 5
+			- Abra, 63
+			- Kadabra, 64
+			- Drowzee, 96
+			- Hypno, 97
+			- Snorlax, 143
+			
+			
+		DIGLETTS CAVE => digcave
+		
+			- Diglett, 50
+			- Dugtrio, 51
+			
+		SAFARI ZONE => kszone
+		
+			- Butterfree, 12
+			- Nidorina, 30
+			- Beedrill, 15
+			- Nidorino, 33
+			- Paras, 46
+			- Parasect, 47
+			- Venonat, 48
+			- Venomoth, 49
+			- Exeggcute, 102
+			- Rhyhorn, 111
+			- Chansey, 113
+			- Scyther, 123
+			- Pinsir, 127
+			- Tangela, 114
+			- Doduo, 84
+			- Kangaskhan, 115
+			- Tauros, 128
+			- Farfetch'd, 83 
+			
+		POWER PLANT => pwrplnt
+		
+			- Pikachu, 25
+			- Raichu, 26
+			- Magnemite, 81
+			- Magneton, 82
+			- Grimer, 88
+			- Muk, 89
+			- Voltorb, 100
+			- Electrode, 101
+			- Electabuzz, 125
+			- Jolteon, 135
+			- Porygon, 137
+			- Zapdos, 145
+			
+		SEAFOAM ISLANDS => sfisle
+		
+			- Psyduck, 54
+			- Golduck, 55
+			- Slowpoke, 79
+			- Slowbro, 80
+			- Seel, 86
+			- Dewgong, 87
+			- Shellder, 90
+			- Cloyster, 91
+			- Krabby, 98
+			- Kingler, 99
+			- Horsea, 116
+			- Seadra, 117
+			- Staryu, 120
+			- Starmie, 121
+			- Squirtle, 7
+			- Wartortle, 8
+			- Jynx, 124
+			- Lapras, 131
+			- Vaporeon, 134
+			- Articuno, 144
+			
+		POKEMON MANSION => pkmnmnsn
+		
+			- Rattata, 19
+			- Raticate, 20
+			- Gastly, 92
+			- Haunter, 93
+			- Vulpix, 37
+			- Ninetails, 38
+			- Growlithe, 58
+			- Arcanine, 59
+			- Ponyta, 77
+			- Rapidash, 78
+			- Koffing, 109
+			- Weezing, 110
+			- Magmar, 126
+			- Ditto, 132
+			- Ekans, 23
+			- Persian, 53
+			- Flareon, 136
+			
+		VICTORY ROAD => kvroad
+		
+			- Graveler, 75
+			- Machoke, 67
+			- Marowak, 105
+			- Golbat, 42
+			- Venomoth, 49
+			- Onix, 95
+			- Moltres, 146
+			- Rhydon, 112
+			- Sandslash, 28
+			- Arbok, 24
+			- Primeape, 57
+			- Pidgeot, 18
+			- Exeggutor, 103
+			- Hitmonlee, 106
+			- Hitmonchan, 107
+			
+			
+		CERULEAN CAVE => ccave
+		
+			- Vileplume, 45
+			- Alakazam, 65
+			- Victreebel, 71
+			- Machamp, 68
+			- Golem, 76
+			- Gengar, 94
+			- Dodrio, 85
+			- Hypno, 97
+			- Jigglypuff, 39
+			- Wigglytuff, 40
+			- Lickitung, 108
+			- Nidoqueen, 31
+			- Nidoking, 34
+			- Mr. Mime, 122
+			- Venusaur, 3
+			- Charizard, 6
+			- Blastoise, 9
+			- Dragonite, 149
+			- Aerodactyl, 142
+			- Mewtwo, 150
+			
+		FISHING => fish
+		
+			- Magikarp, 129
+			- Gyarados, 130
+			- Poliwag, 60
+			- Poliwhirl, 61
+			- Poliwrath, 62
+			- Dratini, 147
+			- Dragonair, 148
+			- Tentacool, 72
+			- Tentacruel, 73
+			- Goldeen, 118
+			- Seaking, 119
+			- Omanyte, 138
+			- Omastar, 139
+			- Kabuto, 140
+			- Kabutops, 141
+			
+			
+			
+		
