@@ -1,0 +1,17 @@
+NEED TO DO
+
+
+1. ADD REGIONS
+
+	A. Hoenn
+	
+		1. Sprites => DONE
+		2. Backgrounds => 0%
+		3. Pokemon Routes => 0%
+	
+	
+	B. Sinnoh
+	C. Unova
+	D. Kalos
+	E. Alola
+	F. Galar
