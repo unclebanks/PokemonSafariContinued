@@ -81,11 +81,11 @@ document.getElementById('status').addEventListener('click', save_options);
 
 var setAlarm = function(e) {
 	if(localStorage.frequency == "veryrare")
-		chrome.alarms.create("", {"delayInMinutes":240});
-	else if(localStorage.frequency == "rare")
-		chrome.alarms.create("", {"delayInMinutes":45});
-	else if(localStorage.frequency == "uncommon")
 		chrome.alarms.create("", {"delayInMinutes":10});
+	else if(localStorage.frequency == "rare")
+		chrome.alarms.create("", {"delayInMinutes":5});
+	else if(localStorage.frequency == "uncommon")
+		chrome.alarms.create("", {"delayInMinutes":2});
 	else if(localStorage.frequency == "random") 
 		chrome.alarms.create("", {"delayInMinutes":(Math.random() * 120)});
 	else

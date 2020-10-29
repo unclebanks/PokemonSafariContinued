@@ -7,7 +7,7 @@ var iv = Math.floor(Math.random() * 15) + 1;
 var trainer = JSON.parse(localStorage.trainer);
 var dex = JSON.parse(localStorage.pokedex);
 var currentToss = "";
-var inKantp = localStorage._location == 'forest' || localStorage._location == 'tunnel' || localStorage._location == 'beach' || localStorage._location == 'city';
+var inKantp = localStorage._location == 'fish' || localStorage._location == 'mtmoon' || localStorage._location == 'digcave' || localStorage._location == 'city';
 var inJohto = localStorage._location == 'park' || localStorage._location == 'glacier' || localStorage._location == 'tower';
 var inHoenn = localStorage._location == 'jungle' || localStorage._location == 'sea' || localStorage._location == 'mountain';
 var shiny = Math.random() < 0.02;
@@ -27,29 +27,41 @@ var JSONHabitatsUrl = chrome.extension.getURL('/js/habitats.json');
 
 function getLocation() {
 	switch(localStorage._location){
-		case 'forest':
-			_location = 'forest';
+		case 'fish':
+			_location = 'beach0';
 			break;
-		case 'forest' || 'jungle':
-			_location = 'forest';
+		case 'pkmnmnsn':
+			_location = 'city0';
 			break;
-		case 'glacier' || 'mountain':
-			_location = 'glacier';
+		case 'pwrplnt':
+			_location = 'city0';
 			break;
-		case 'tunnel':
-			_location = 'tunnel';
+		case 'vforest':
+			_location = 'forest0';
 			break;
-		case 'beach' || 'sea':
-			_location = 'beach';
+		case 'sfisle':
+			_location = 'glacier0';
 			break;
-		case 'city':
-			_location = 'city';
+		case 'kszone':
+			_location = 'park0';
 			break;
-		case 'tower':
-			_location = 'tower';
+		case 'ccave':
+			_location = 'tower0';
+			break;
+		case 'mtmoon':
+			_location = 'tunnel0';
+			break;
+		case 'rtunnel':
+			_location = 'tunnel0';
+			break;
+		case 'digcave':
+			_location = 'tunnel0';
+			break;
+		case 'kvroad':
+			_location = 'tunnel0';
 			break;
 		default:
-			_location = 'forest';
+			_location = 'forest0';
 			break;
 		}
 	return _location;
@@ -60,7 +72,7 @@ function initializeVars(){
 	var pokemonGenerator = {
 		requestPokemon: function() {
 			_location = getLocation();
-			chrome.browserAction.setIcon({"path":'/images/'+_location + ".png"});
+			chrome.browserAction.setIcon({"path":'/images/icons/toolbarRegion/'+_location + ".png"});
 			chrome.browserAction.setPopup({"popup":"/html/menu.html"});
 			chrome.notifications.clear("poke", function(){});
 			pokeindex = choosePokemon();

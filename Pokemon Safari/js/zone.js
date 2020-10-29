@@ -49,29 +49,42 @@ function getLocation(e){
 	localStorage._location = e.id;
 	var _location = e.id;
   	switch(_location){
-		case 'park':
-			_location = 'park';
+/////////////KANTO Region
+		case 'fish':
+			_location = 'beach0';
 			break;
-		case 'forest' || 'jungle':
-			_location = 'forest';
+		case 'pkmnmnsn':
+			_location = 'city0';
 			break;
-		case 'glacier' || 'mountain':
-			_location = 'glacier';
+		case 'pwrplnt':
+			_location = 'city0';
 			break;
-		case 'tunnel':
-			_location = 'tunnel';
+		case 'vforest':
+			_location = 'forest0';
 			break;
-		case 'beach' || 'sea':
-			_location = 'beach';
+		case 'sfisle':
+			_location = 'glacier0';
 			break;
-		case 'city':
-			_location = 'city';
+		case 'kszone':
+			_location = 'park0';
 			break;
-		case 'tower':
-			_location = 'tower';
+		case 'ccave':
+			_location = 'tower0';
+			break;
+		case 'mtmoon':
+			_location = 'tunnel0';
+			break;
+		case 'rtunnel':
+			_location = 'tunnel0';
+			break;
+		case 'digcave':
+			_location = 'tunnel0';
+			break;
+		case 'kvroad':
+			_location = 'tunnel0';
 			break;
 		default:
-			_location = 'forest';
+			_location = 'forest0';
 			break;
 		}
 		return _location;
@@ -80,7 +93,7 @@ function getLocation(e){
 var click = function(e) {
 	return function() {
 		_location = getLocation(e);
-  		chrome.browserAction.setIcon({"path":"/images/"+_location+ ".png"});
+  		chrome.browserAction.setIcon({"path":"/images/icons/toolbarRegion/"+_location+ ".png"});
 		document.location = "menu.html";
 	};
 };

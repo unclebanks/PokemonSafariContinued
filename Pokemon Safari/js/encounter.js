@@ -1,29 +1,43 @@
+////////KANTO REGION
+
 function getLocation() {
 		switch(localStorage._location){
-			case 'park':
-				_location = 'park';
-				break;
-			case 'forest' || 'jungle':
-				_location = 'forest';
-				break;
-			case 'glacier' || 'mountain':
-				_location = 'glacier';
-				break;
-			case 'tunnel':
-				_location = 'tunnel';
-				break;
-			case 'beach' || 'sea':
-				_location = 'beach';
-				break;
-			case 'city':
-				_location = 'city';
-				break;
-			case 'tower':
-				_location = 'tower';
-				break;
-			default:
-				_location = 'forest';
-				break;
+			case 'fish':
+			_location = 'beach0';
+			break;
+		case 'pkmnmnsn':
+			_location = 'city0';
+			break;
+		case 'pwrplnt':
+			_location = 'city0';
+			break;
+		case 'vforest':
+			_location = 'forest0';
+			break;
+		case 'sfisle':
+			_location = 'glacier0';
+			break;
+		case 'kszone':
+			_location = 'park0';
+			break;
+		case 'ccave':
+			_location = 'tower0';
+			break;
+		case 'mtmoon':
+			_location = 'tunnel0';
+			break;
+		case 'rtunnel':
+			_location = 'tunnel0';
+			break;
+		case 'digcave':
+			_location = 'tunnel0';
+			break;
+		case 'kvroad':
+			_location = 'tunnel0';
+			break;
+		default:
+			_location = 'forest0';
+			break;
 			}
 		return _location;
 	}
@@ -31,21 +45,21 @@ function getLocation() {
 var start = function(e) {
 	if(!localStorage.trainer) { update(); }
  	_location = getLocation();
-  	chrome.browserAction.setIcon({"path":"/images/backgrounds/"+_location+ ".png"});
+  	chrome.browserAction.setIcon({"path":"/images/icons/toolbarRegion/"+_location+ ".png"});
 	chrome.alarms.create("", {"delayInMinutes":1});
 };
 
 var setAlarm = function(e) {
 	if(localStorage.frequency == "veryrare")
-		chrome.alarms.create("", {"delayInMinutes":240});
-	else if(localStorage.frequency == "rare")
-		chrome.alarms.create("", {"delayInMinutes":45});
-	else if(localStorage.frequency == "uncommon")
 		chrome.alarms.create("", {"delayInMinutes":10});
+	else if(localStorage.frequency == "rare")
+		chrome.alarms.create("", {"delayInMinutes":5});
+	else if(localStorage.frequency == "uncommon")
+		chrome.alarms.create("", {"delayInMinutes":2});
 	else if(localStorage.frequency == "random") 
 		chrome.alarms.create("", {"delayInMinutes":(Math.random() * 120)});
 	else
-		chrome.alarms.create("", {"delayInMinutes":1});
+		chrome.alarms.create("", {"delayInMinutes":.2});
 };
 
 var pokemonFound = function(e) {

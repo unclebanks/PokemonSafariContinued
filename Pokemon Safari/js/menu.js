@@ -1,29 +1,44 @@
+///////KANTO REGION
+
 function getLocation() {
 	switch(localStorage._location){
+		case 'fish':
+			_location = 'beach0';
+			break;
+		case 'pkmnmnsn':
+			_location = 'city0';
+			break;
+		case 'pwrplnt':
+			_location = 'city0';
+			break;
 		case 'vforest':
-			_location = 'vforest';
+			_location = 'forest0';
 			break;
-		case 'forest' || 'jungle':
-			_location = 'forest';
+		case 'sfisle':
+			_location = 'glacier0';
 			break;
-		case 'glacier' || 'mountain':
-			_location = 'glacier';
+		case 'kszone':
+			_location = 'park0';
 			break;
-		case 'tunnel':
-			_location = 'tunnel';
+		case 'ccave':
+			_location = 'tower0';
 			break;
-		case 'beach' || 'sea':
-			_location = 'beach';
+		case 'mtmoon':
+			_location = 'tunnel0';
 			break;
-		case 'city':
-			_location = 'city';
+		case 'rtunnel':
+			_location = 'tunnel0';
 			break;
-		case 'tower':
-			_location = 'tower';
+		case 'digcave':
+			_location = 'tunnel0';
+			break;
+		case 'kvroad':
+			_location = 'tunnel0';
 			break;
 		default:
-			_location = 'forest';
+			_location = 'forest0';
 			break;
+///////JOHTO REGION
 		}
 	return _location;
 }
@@ -33,7 +48,7 @@ var setup = function(e) {
 		localStorage._location = 'forest';
 	}
 	_location = getLocation();
-	chrome.browserAction.setIcon({"path":"/images/"+_location+ ".png"});
+	chrome.browserAction.setIcon({"path":"/images/icons/toolbarRegion/"+_location+ ".png"});
 	displayZone(localStorage._location);
 	displayTrainerInfo();
 };

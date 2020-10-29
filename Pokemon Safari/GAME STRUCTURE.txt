@@ -1,6 +1,6 @@
 BATTLE.JS
 
-	*Contains directory to dictate small icon for level
+	*Contains directory to dictate toolbar icon for level AFTER BATTLE
 		*EX: Viridian forest is "forest" no matter the background
 		
 		
