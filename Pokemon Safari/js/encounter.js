@@ -1,7 +1,8 @@
-////////KANTO REGION
+////////REGION ID FOR TOOLBAR ICON
 
 function getLocation() {
 		switch(localStorage._location){
+/////////KANTO REGION			
 			case 'fish':
 			_location = 'beach0';
 			break;
@@ -24,7 +25,7 @@ function getLocation() {
 			_location = 'tower0';
 			break;
 		case 'mtmoon':
-			_location = 'tunnel0';
+			_location = 'glacier0';
 			break;
 		case 'rtunnel':
 			_location = 'tunnel0';
@@ -35,9 +36,48 @@ function getLocation() {
 		case 'kvroad':
 			_location = 'tunnel0';
 			break;
+			
+//////////JOHTO REGION
+
+		case 'npark':
+			_location = 'park1';
+			break;
+		case 'ruinsoa':
+			_location = 'tunnel1';
+			break;
+		case 'iforest':
+			_location = 'forest1';
+			break;
+		case 'ttower':
+			_location = 'tower1';
+			break;
+		case 'wisle':
+			_location = 'beach1';
+			break;
+		case 'mmortar':
+			_location = 'glacier1';
+			break;
+		case 'lakerage':
+			_location = 'beach1';
+			break;
+		case 'icepath':
+			_location = 'glacier1';
+			break;
+		case 'dcave':
+			_location = 'tunnel1';
+			break;
+		case 'msilver':
+			_location = 'glacier1';
+			break;
+		case 'jvroad':
+			_location = 'tunnel1';
+			break;
+		case 'jfish':
+			_location = 'beach1';
+			break;
 		default:
 			_location = 'forest0';
-			break;
+			break;	
 			}
 		return _location;
 	}

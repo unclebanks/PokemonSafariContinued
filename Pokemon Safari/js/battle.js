@@ -7,8 +7,8 @@ var iv = Math.floor(Math.random() * 15) + 1;
 var trainer = JSON.parse(localStorage.trainer);
 var dex = JSON.parse(localStorage.pokedex);
 var currentToss = "";
-var inKantp = localStorage._location == 'fish' || localStorage._location == 'mtmoon' || localStorage._location == 'digcave' || localStorage._location == 'city';
-var inJohto = localStorage._location == 'park' || localStorage._location == 'glacier' || localStorage._location == 'tower';
+var inKanto = localStorage._location == 'fish' || localStorage._location == 'mtmoon' || localStorage._location == 'digcave' || localStorage._location == 'vforest' || localStorage._location == 'rtunnel' || localStorage._location == 'kszone' || localStorage._location == 'pwrplnt' || localStorage._location == 'pkmnmnsn' || localStorage._location == 'kvroad' || localStorage._location == 'ccave' || localStorage._location == 'sfisle';
+var inJohto = localStorage._location == 'npark' || localStorage._location == 'ruinsoa' || localStorage._location == 'iforest' || localStorage._location == 'ttower' || localStorage._location == 'wisle' || localStorage._location == 'mmortar' || localStorage._location == 'lakerage' || localStorage._location == 'icepath' || localStorage._location == 'dcave' || localStorage._location == 'msilver' || localStorage._location == 'jvroad' || localStorage._location == 'jfish';
 var inHoenn = localStorage._location == 'jungle' || localStorage._location == 'sea' || localStorage._location == 'mountain';
 var shiny = Math.random() < 0.02;
 var cry; var victory; var ssData = {};
@@ -59,6 +59,42 @@ function getLocation() {
 			break;
 		case 'kvroad':
 			_location = 'tunnel0';
+			break;
+		case 'npark':
+			_location = 'park1';
+			break;
+		case 'ruinsoa':
+			_location = 'tunnel1';
+			break;
+		case 'iforest':
+			_location = 'forest1';
+			break;
+		case 'ttower':
+			_location = 'tower1';
+			break;
+		case 'wisle':
+			_location = 'beach1';
+			break;
+		case 'mmortar':
+			_location = 'glacier1';
+			break;
+		case 'lakerage':
+			_location = 'beach1';
+			break;
+		case 'icepath':
+			_location = 'glacier1';
+			break;
+		case 'dcave':
+			_location = 'tunnel1';
+			break;
+		case 'msilver':
+			_location = 'glacier1';
+			break;
+		case 'jvroad':
+			_location = 'tunnel1';
+			break;
+		case 'jfish':
+			_location = 'beach1';
 			break;
 		default:
 			_location = 'forest0';
@@ -177,7 +213,7 @@ function initializeVars(){
 	}
 
 	var tryForSpecialPokemon = function () {
-		if (Math.random() < 0.05) {return 151;}
+		if (Math.random() < .05 && inKanto) {return 151;}
 		else if (_location == 'city' && Math.random() < 0.01) {return 150;}
 		else if (Math.random() < 0.05 && inJohto){ 
 			return 243 + Math.floor(Math.random() * 3); // Raikou, Entei and Suicune

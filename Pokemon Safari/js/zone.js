@@ -83,9 +83,45 @@ function getLocation(e){
 		case 'kvroad':
 			_location = 'tunnel0';
 			break;
+		case 'npark':
+			_location = 'park1';
+			break;
+		case 'ruinsoa':
+			_location = 'tunnel1';
+			break;
+		case 'iforest':
+			_location = 'forest1';
+			break;
+		case 'ttower':
+			_location = 'tower1';
+			break;
+		case 'wisle':
+			_location = 'beach1';
+			break;
+		case 'mmortar':
+			_location = 'glacier1';
+			break;
+		case 'lakerage':
+			_location = 'beach1';
+			break;
+		case 'icepath':
+			_location = 'glacier1';
+			break;
+		case 'dcave':
+			_location = 'tunnel1';
+			break;
+		case 'msilver':
+			_location = 'glacier1';
+			break;
+		case 'jvroad':
+			_location = 'tunnel1';
+			break;
+		case 'jfish':
+			_location = 'beach1';
+			break;
 		default:
 			_location = 'forest0';
-			break;
+			break;		
 		}
 		return _location;
 }
