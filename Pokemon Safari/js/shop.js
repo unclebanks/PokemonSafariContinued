@@ -1,11 +1,11 @@
 var items = [
-	{name:"Great Ball", cost:5, id:"greatballs", img:"/images/greatball.png", desc:"A stronger Pokeball"},
-	{name:"Net", cost:5, id:"nets", img:"/images/net.png", desc:"Stuns a Pokemon for 2-3 turns"},
+	{name:"Great Ball", cost:5, id:"greatballs", img:"/images/icons/items/greatball.png", desc:"A stronger Pokeball"},
+	{name:"Net", cost:5, id:"nets", img:"/images/icons/items/net.png", desc:"Stuns a Pokemon for 2-3 turns"},
 	//{name:"Pal Ball", cost:5000, id:"palballs", rq:50, img:"palball.png", desc:"Befriends caught Pokemon"},
-	{name:"Master Ball", cost:75000, id:"masterballs", rq:100, img:"/images/masterball.png", desc:"Automatically catches a Pokemon"},
-	{name:"S.S. Anne Tickets", cost:5000, id:"jticket", rq:150, img:"/images/ssticket.png", desc:"Allows you to sail to another nearby region", onlyone:true},
-	{name:"Slateport Tickets", cost:5000, id:"hticket", rq:249, img:"/images/hticket.png", desc:"Allows you to sail to a tropical region", onlyone:true},
-	{name:"Zoom Lens", cost:2000, id:"zoomlens", rq:300, img:"/images/zoomlens.png", desc:"A peculiar binocular that is used to study Pokemon far up in the sky", onlyone:true}];
+	{name:"Master Ball", cost:1, id:"masterballs", rq:30, img:"/images/icons/items/masterball.png", desc:"Automatically catches a Pokemon"},
+	{name:"S.S. Anne Tickets", cost:500, id:"jticket", rq:150, img:"/images/icons/items/ssticket.png", desc:"Allows you to sail to another nearby region", onlyone:true},
+	{name:"Slateport Tickets", cost:500, id:"hticket", rq:249, img:"/images/icons/items/hticket.png", desc:"Allows you to sail to a tropical region", onlyone:true},
+	{name:"Zoom Lens", cost:200, id:"zoomlens", rq:300, img:"/images/icons/items/zoomlens.png", desc:"A peculiar binocular that is used to study Pokemon far up in the sky", onlyone:true}];
 	
 var setup = function(e) {
 	var trainer = JSON.parse(localStorage.trainer);

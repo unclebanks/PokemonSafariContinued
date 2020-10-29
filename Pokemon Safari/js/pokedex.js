@@ -1,15 +1,15 @@
 var urlifyNumber = function(dexNum, isShiny) {
   var dexNumString = '' + dexNum;
-  while (dexNumString.length < 3)
+  while (dexNumString.length < 1)
     dexNumString = '0' + dexNumString;
   if (isShiny) {
       if (localStorage.style == '2d')
-        return 'http://www.serebii.net/Shiny/BW/' + dexNumString + '.png';
+        return '/images/pokemon/shinypokemon/' + dexNumString + '.png';
       else
         return 'http://www.serebii.net/Shiny/XY/' + dexNumString + '.png';
   }
   if (localStorage.style == '2d')
-    return 'http://www.serebii.net/blackwhite/pokemon/' + dexNumString + '.png';
+    return '/images/pokemon/pokemon/' + dexNumString + '.png';
   else
     return 'http://www.serebii.net/xy/pokemon/' + dexNumString + '.png';
 };

@@ -311,7 +311,7 @@ JOHTO
 			- Feraligatr, 160
 			- Sudowoodo, 185
 			- Ursaring, 217
-			- Donphan
+			- Donphan,232
 			- Misdreavus, 200
 			- Tyranitar, 248
 			
@@ -338,3 +338,162 @@ JOHTO
 			- Remoraid, 223
 			- Octillery, 224
 			- Mantine, 226
+			
+			
+			
+			
+HOENN 
+
+	DUNGEONS
+	
+		1.PETALBURG WOODS =>pwoods
+		
+			- Poochyena
+			- Zigzagoon
+			- Wurmple
+			- Cascoon
+			- Duscoon
+			- Taillow
+			- Shroomish
+			- Slakoth
+			
+		2.GRANITE CAVE =>gcave
+		
+			- Makuhita
+			- Aaron
+			- Sableye
+			- Mawille
+			- Nosepass
+			-
+			-
+			-
+			-
+			
+		3.FIERY PATH =>fpath
+		
+			- Numel
+			- Torkoal
+			- Spoink
+			-
+			-
+			-
+			-
+			-
+			
+		5.METEOR FALLS =>mfalls
+		
+			- Barboach
+			- Lunatone
+			- Solrock
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		6.NEW MAUVILLE =>nmville
+		
+			- Electrike
+			- Plusle
+			- Minun
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		7.SAFARI ZONE =>hszone
+		
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		8.MT. PYRE =>mpyre
+		
+			- Shuppet
+			- Duskull
+			- Chimecho
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		9.SKY PILLAR =>spillar
+		
+			- 
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			- Altaria
+			- Rayquaza
+			
+		10.SEALED CHAMBER =>schamber
+		
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		11.Seafloor Cavern =>seacave
+
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		11.VICTORY ROAD =>hvroad
+		
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			
+		12.FISHING =>hfish
+		
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-

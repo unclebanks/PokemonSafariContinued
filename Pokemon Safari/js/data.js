@@ -5965,5 +5965,824 @@ var PokemonDex = { "pokedex": [
     "Type I":"Bug",
     "EXPV":270,
     "Catch":3
+  },
+  {
+    "Nat":650,
+    "Pokemon":"Chespin",
+    "Spe":38,
+    "Total":313,
+    "Type I":"Grass",
+    "EXPV":63,
+    "Catch":45
+  },
+  {
+    "Nat":651,
+    "Pokemon":"Quilladin",
+    "Spe":57,
+    "Total":405,
+    "Type I":"Grass",
+    "EXPV":142,
+    "Catch":45
+  },
+  {
+    "Nat":652,
+    "Pokemon":"Chesnaught",
+    "Spe":64,
+    "Total":530,
+    "Type I":"Grass",
+    "EXPV":239,
+    "Catch":45
+  },
+  {
+    "Nat":653,
+    "Pokemon":"Fennekin",
+    "Spe":60,
+    "Total":307,
+    "Type I":"Fire",
+    "EXPV":61,
+    "Catch":45
+  },
+  {
+    "Nat":654,
+    "Pokemon":"Braixen",
+    "Spe":73,
+    "Total":409,
+    "Type I":"Fire",
+    "EXPV":143,
+    "Catch":45
+  },
+  {
+    "Nat":655,
+    "Pokemon":"Delphox",
+    "Spe":104,
+    "Total":534,
+    "Type I":"Fire",
+    "EXPV":240,
+    "Catch":45
+  },
+  {
+    "Nat":656,
+    "Pokemon":"Froakie",
+    "Spe":71,
+    "Total":314,
+    "Type I":"Water",
+    "EXPV":63,
+    "Catch":45
+  },
+  {
+    "Nat":657,
+    "Pokemon":"Frogadier",
+    "Spe":97,
+    "Total":405,
+    "Type I":"Water",
+    "EXPV":142,
+    "Catch":45
+  },
+  {
+    "Nat":658,
+    "Pokemon":"Greninja",
+    "Spe":122,
+    "Total":530,
+    "Type I":"Water",
+    "EXPV":239,
+    "Catch":45
+  },
+  {
+    "Nat":659,
+    "Pokemon":"Bunnelby",
+    "Spe":57,
+    "Total":237,
+    "Type I":"Normal",
+    "EXPV":47,
+    "Catch":255
+  },
+  {
+    "Nat":660,
+    "Pokemon":"Diggersby",
+    "Spe":78,
+    "Total":423,
+    "Type I":"Ground",
+    "EXPV":148,
+    "Catch":127
+  },
+  {
+    "Nat":661,
+    "Pokemon":"Fletchling",
+    "Spe":62,
+    "Total":278,
+    "Type I":"Fire",
+    "EXPV":56,
+    "Catch":255
+  },
+  {
+    "Nat":662,
+    "Pokemon":"Fletchinder",
+    "Spe":84,
+    "Total":382,
+    "Type I":"Fire",
+    "EXPV":134,
+    "Catch":120
+  },
+  {
+    "Nat":663,
+    "Pokemon":"Talonflame",
+    "Spe":126,
+    "Total":499,
+    "Type I":"Fire",
+    "EXPV":175,
+    "Catch":45
+  },
+  {
+    "Nat":664,
+    "Pokemon":"Scatterbug",
+    "Spe":35,
+    "Total":200,
+    "Type I":"Bug",
+    "EXPV":40,
+    "Catch":255
+  },
+  {
+    "Nat":665,
+    "Pokemon":"Spewpa",
+    "Spe":29,
+    "Total":213,
+    "Type I":"Bug",
+    "EXPV":75,
+    "Catch":120
+  },
+  {
+    "Nat":666,
+    "Pokemon":"Vivillon",
+    "Spe":89,
+    "Total":411,
+    "Type I":"Bug",
+    "EXPV":185,
+    "Catch":45
+  },
+  {
+    "Nat":667,
+    "Pokemon":"Litleo",
+    "Spe":72,
+    "Total":369,
+    "Type I":"Fire",
+    "EXPV":74,
+    "Catch":220
+  },
+  {
+    "Nat":668,
+    "Pokemon":"Pyroar",
+    "Spe":106,
+    "Total":507,
+    "Type I":"Fire",
+    "EXPV":177,
+    "Catch":65
+  },
+  {
+    "Nat":669,
+    "Pokemon":"Flabebe",
+    "Spe":42,
+    "Total":303,
+    "Type I":"Fairy",
+    "EXPV":61,
+    "Catch":225
+  },
+  {
+    "Nat":670,
+    "Pokemon":"Floette",
+    "Spe":52,
+    "Total":371,
+    "Type I":"Fairy",
+    "EXPV":130,
+    "Catch":120
+  },
+  {
+    "Nat":671,
+    "Pokemon":"Florges",
+    "Spe":75,
+    "Total":552,
+    "Type I":"Fiary",
+    "EXPV":248,
+    "Catch":45
+  },
+  {
+    "Nat":672,
+    "Pokemon":"Skiddo",
+    "Spe":52,
+    "Total":350,
+    "Type I":"Grass",
+    "EXPV":70,
+    "Catch":200
+  },
+  {
+    "Nat":673,
+    "Pokemon":"Gogoat",
+    "Spe":68,
+    "Total":531,
+    "Type I":"Grass",
+    "EXPV":186,
+    "Catch":45
+  },
+  {
+    "Nat":674,
+    "Pokemon":"Pancham",
+    "Spe":43,
+    "Total":348,
+    "Type I":"Fighting",
+    "EXPV":70,
+    "Catch":220
+  },
+  {
+    "Nat":675,
+    "Pokemon":"Pangoro",
+    "Spe":58,
+    "Total":495,
+    "Type I":"Fighting",
+    "EXPV":173,
+    "Catch":65
+  },
+  {
+    "Nat":676,
+    "Pokemon":"Furfrou",
+    "Spe":102,
+    "Total":472,
+    "Type I":"Normal",
+    "EXPV":165,
+    "Catch":160
+  },
+  {
+    "Nat":677,
+    "Pokemon":"Espurr",
+    "Spe":68,
+    "Total":355,
+    "Type I":"Psychic",
+    "EXPV":71,
+    "Catch":190
+  },
+  {
+    "Nat":678,
+    "Pokemon":"Meowstic",
+    "Spe":104,
+    "Total":466,
+    "Type I":"Psychic",
+    "EXPV":163,
+    "Catch":75
+  },
+  {
+    "Nat":679,
+    "Pokemon":"Honedge",
+    "Spe":28,
+    "Total":325,
+    "Type I":"Steel",
+    "EXPV":65,
+    "Catch":180
+  },
+  {
+    "Nat":680,
+    "Pokemon":"Doublade",
+    "Spe":35,
+    "Total":448,
+    "Type I":"Steel",
+    "EXPV":157,
+    "Catch":90
+  },
+  {
+    "Nat":681,
+    "Pokemon":"Aegislash",
+    "Spe":60,
+    "Total":500,
+    "Type I":"Steel",
+    "EXPV":234,
+    "Catch":45
+  },
+  {
+    "Nat":682,
+    "Pokemon":"Spritzee",
+    "Spe":23,
+    "Total":341,
+    "Type I":"Fairy",
+    "EXPV":68,
+    "Catch":200
+  },
+  {
+    "Nat":683,
+    "Pokemon":"Aromatisse",
+    "Spe":29,
+    "Total":462,
+    "Type I":"Fairy",
+    "EXPV":162,
+    "Catch":140
+  },
+  {
+    "Nat":684,
+    "Pokemon":"Swirlix",
+    "Spe":49,
+    "Total":341,
+    "Type I":"Fairy",
+    "EXPV":68,
+    "Catch":200
+  },
+  {
+    "Nat":685,
+    "Pokemon":"Slurpuff",
+    "Spe":72,
+    "Total":480,
+    "Type I":"Fairy",
+    "EXPV":168,
+    "Catch":140
+  },
+  {
+    "Nat":686,
+    "Pokemon":"Inkay",
+    "Spe":45,
+    "Total":288,
+    "Type I":"Dark",
+    "EXPV":58,
+    "Catch":190
+  },
+  {
+    "Nat":687,
+    "Pokemon":"Malamar",
+    "Spe":73,
+    "Total":482,
+    "Type I":"Dark",
+    "EXPV":169,
+    "Catch":80
+  },
+  {
+    "Nat":688,
+    "Pokemon":"Binacle",
+    "Spe":50,
+    "Total":306,
+    "Type I":"Rock",
+    "EXPV":61,
+    "Catch":120
+  },
+  {
+    "Nat":689,
+    "Pokemon":"Barbaracle",
+    "Spe":68,
+    "Total":500,
+    "Type I":"Rock",
+    "EXPV":175,
+    "Catch":45
+  },
+  {
+    "Nat":690,
+    "Pokemon":"Skrelp",
+    "Spe":30,
+    "Total":320,
+    "Type I":"Poison",
+    "EXPV":64,
+    "Catch":225
+  },
+  {
+    "Nat":691,
+    "Pokemon":"Dragalge",
+    "Spe":44,
+    "Total":494,
+    "Type I":"Poison",
+    "EXPV":173,
+    "Catch":55
+  },
+  {
+    "Nat":692,
+    "Pokemon":"Clauncher",
+    "Spe":44,
+    "Total":330,
+    "Type I":"Water",
+    "EXPV":66,
+    "Catch":225
+  },
+  {
+    "Nat":693,
+    "Pokemon":"Clawitzer",
+    "Spe":59,
+    "Total":500,
+    "Type I":"Water",
+    "EXPV":100,
+    "Catch":55
+  },
+  {
+    "Nat":694,
+    "Pokemon":"Helioptile",
+    "Spe":70,
+    "Total":289,
+    "Type I":"Electric",
+    "EXPV":58,
+    "Catch":190
+  },
+  {
+    "Nat":695,
+    "Pokemon":"Heliolisk",
+    "Spe":109,
+    "Total":481,
+    "Type I":"Electric",
+    "EXPV":168,
+    "Catch":75
+  },
+  {
+	"Nat":696,
+	"Pokemon":"Tyrunt",
+	"Spe":48,
+	"Total":362,
+	"Type I":"Rock",
+	"EXPV":72,
+	"Catch":45
+  },
+  {
+	"Nat":697,
+	"Pokemon":"Tyrantrum",
+	"Spe":71,
+	"Total":521,
+	"Type I":"Rock",
+	"EXPV":182,
+	"Catch":45
+  },
+  {
+	"Nat":698,
+	"Pokemon":"Amaura",
+	"Spe":46,
+	"Total":362,
+	"Type I":"Rock",
+	"EXPV":72,
+	"Catch":45
+  },
+  {
+	"Nat":699,
+	"Pokemon":"Aurorus",
+	"Spe":58,
+	"Total":521,
+	"Type I":"Rock",
+	"EXPV":104,
+	"Catch":45
+  },
+  {
+	"Nat":700,
+	"Pokemon":"Sylveon",
+	"Spe":60,
+	"Total":525,
+	"Type I":"Fairy",
+	"EXPV":184,
+	"Catch":45
+  },
+  {
+	"Nat":701,
+	"Pokemon":"Hawlucha",
+	"Spe":118,
+	"Total":500,
+	"Type I":"Fighting",
+	"EXPV":175,
+	"Catch":100
+  },
+  {
+	"Nat":702,
+	"Pokemon":"Dedenne",
+	"Spe":101,
+	"Total":431,
+	"Type I":"Electric",
+	"EXPV":151,
+	"Catch":180
+  },
+  {
+	"Nat":703,
+	"Pokemon":"Carbink",
+	"Spe":50,
+	"Total":500,
+	"Type I":"Rock",
+	"EXPV":100,
+	"Catch":60
+  },
+  {
+	"Nat":704,
+	"Pokemon":"Goomy",
+	"Spe":40,
+	"Total":300,
+	"Type I":"Dragon",
+	"EXPV":60,
+	"Catch":45
+  },
+  {
+	"Nat":705,
+	"Pokemon":"Sliggoo",
+	"Spe":60,
+	"Total":452,
+	"Type I":"Dragon",
+	"EXPV":158,
+	"Catch":45
+  },
+  {
+	"Nat":706,
+	"Pokemon":"Goodra",
+	"Spe":80,
+	"Total":600,
+	"Type I":"Dragon",
+	"EXPV":270,
+	"Catch":45
+  },
+  {
+	"Nat":707,
+	"Pokemon":"Klefki",
+	"Spe":75,
+	"Total":470,
+	"Type I":"Steel",
+	"EXPV":165,
+	"Catch":75
+  },
+  {
+	"Nat":708,
+	"Pokemon":"Phantump",
+	"Spe":38,
+	"Total":309,
+	"Type I":"Ghost",
+	"EXPV":62,
+	"Catch":120
+  },
+  {
+	"Nat":709,
+	"Pokemon":"Trevenant",
+	"Spe":56,
+	"Total":474,
+	"Type I":"Ghost",
+	"EXPV":166,
+	"Catch":60
+  },
+  {
+	"Nat":710,
+	"Pokemon":"Pumpkaboo",
+	"Spe":51,
+	"Total":335,
+	"Type I":"Ghost",
+	"EXPV":67,
+	"Catch":120
+  },
+  {
+	"Nat":711,
+	"Pokemon":"Gourgeist",
+	"Spe":84,
+	"Total":494,
+	"Type I":"Ghost",
+	"EXPV":173,
+	"Catch":60
+  },
+  {
+	"Nat":712,
+	"Pokemon":"Bergmite",
+	"Spe":28,
+	"Total":304,
+	"Type I":"Ice",
+	"EXPV":61,
+	"Catch":190
+  },
+  {
+	"Nat":713,
+	"Pokemon":Avalugg",
+	"Spe":28,
+	"Total":514,
+	"Type I":"Ice",
+	"EXPV":180,
+	"Catch":55
+  },
+  {
+	"Nat":714,
+	"Pokemon":"Noibat",
+	"Spe":55,
+	"Total":245,
+	"Type I":"Flying",
+	"EXPV":49,
+	"Catch":190
+  },
+  {
+	"Nat":715,
+	"Pokemon":"Noivern",
+	"Spe":123,
+	"Total":535,
+	"Type I":"Flying",
+	"EXPV":187,
+	"Catch":45
+  },
+  {
+	"Nat":716,
+	"Pokemon":"Xerneas",
+	"Spe":99,
+	"Total":680,
+	"Type I":"Fairy",
+	"EXPV":306,
+	"Catch":45
+  },
+  {
+	"Nat":717,
+	"Pokemon":"Yveltal",
+	"Spe":99,
+	"Total":680,
+	"Type I":"Dark",
+	"EXPV":306,
+	"Catch":45
+  },
+  {
+	"Nat":718,
+	"Pokemon":"Zygarde",
+	"Spe":95,
+	"Total":600,
+	"Type I":"Dragon",
+	"EXPV":270,
+	"Catch":3
+  },
+  {
+	"Nat":719,
+	"Pokemon":"Diancie",
+	"Spe":50,
+	"Total":600,
+	"Type I":"Fairy",
+	"EXPV":270,
+	"Catch":3
+  },
+  {
+	"Nat":720,
+	"Pokemon":"Hoopa",
+	"Spe":70,
+	"Total":600,
+	"Type I":"Psychic",
+	"EXPV":270,
+	"Catch":3
+  },
+  {
+	"Nat":721,
+	"Pokemon":"Volcanion",
+	"Spe":70,
+	"Total":600,
+	"Type I":"Fire",
+	"EXPV":270,
+	"Catch":3
+  },
+  {
+	"Nat":722,
+	"Pokemon":"Rowlet",
+	"Spe":42,
+	"Total":320,
+	"Type I":"Grass",
+	"EXPV":64,
+	"Catch":45
+  },
+  {
+	"Nat":723,
+	"Pokemon":"Dartrix",
+	"Spe":52,
+	"Total":420,
+	"Type I":"Grass",
+	"EXPV":147,
+	"Catch":45
+  },
+  {
+	"Nat":724,
+	"Pokemon":"Decidueye",
+	"Spe":70,
+	"Total":530,
+	"Type I":"Grass",
+	"EXPV":239,
+	"Catch":45
+  },
+  {
+	"Nat":725,
+	"Pokemon":"Litten",
+	"Spe":70,
+	"Total":320,
+	"Type I":"Fire",
+	"EXPV":64,
+	"Catch":45
+  },
+  {
+	"Nat":726,
+	"Pokemon":"Torracat",
+	"Spe":90,
+	"Total":420,
+	"Type I":"Fire",
+	"EXPV":147,
+	"Catch":45
+  },
+  {
+	"Nat":727,
+	"Pokemon":"Incineroar",
+	"Spe":60,
+	"Total":530,
+	"Type I":"Fire",
+	"EXPV":239,
+	"Catch":45
+  },
+  {
+	"Nat":728,
+	"Pokemon":"Popplio",
+	"Spe":40,
+	"Total":320,
+	"Type I":"Water",
+	"EXPV":64,
+	"Catch":45
+  },
+  {
+	"Nat":729,
+	"Pokemon":"Brionne",
+	"Spe":50,
+	"Total":420,
+	"Type I":"Water",
+	"EXPV":147,
+	"Catch":45
+  },
+  {
+	"Nat":730,
+	"Pokemon":"Primarina",
+	"Spe":60,
+	"Total":530,
+	"Type I":"Water",
+	"EXPV":239,
+	"Catch":45
+  },
+  {
+	"Nat":731,
+	"Pokemon":"Pikipek",
+	"Spe":65,
+	"Total":265,
+	"Type I":"Flying",
+	"EXPV":53,
+	"Catch":255
+  },
+  {
+	"Nat":732,
+	"Pokemon":"Trumbeak",
+	"Spe":75,
+	"Total":355,
+	"Type I":"Flying",
+	"EXPV":124,
+	"Catch":120
+  },
+  {
+	"Nat":733,
+	"Pokemon":"Toucannon",
+	"Spe":60,
+	"Total":485,
+	"Type I":"Flying",
+	"EXPV":218,
+	"Catch":45
+  },
+  {
+	"Nat":734,
+	"Pokemon":"Yungoos",
+	"Spe":45,
+	"Total":253,
+	"Type I":"Normal",
+	"EXPV":51,
+	"Catch":255
+  },
+  {
+	"Nat":735,
+	"Pokemon":"Gumshoos",
+	"Spe":45,
+	"Total":418,
+	"Type I":"Normal",
+	"EXPV":146,
+	"Catch":127
+  },
+  {
+	"Nat":736,
+	"Pokemon":"Grubbin",
+	"Spe":46,
+	"Total":300,
+	"Type I":"Bug",
+	"EXPV":60,
+	"Catch":255
+  },
+  {
+	"Nat":737,
+	"Pokemon":"Charjabug",
+	"Spe":36,
+	"Total":400,
+	"Type I":"Bug",
+	"EXPV":140,
+	"Catch":120
+  },
+  {
+	"Nat":738,
+	"Pokemon":"Vikavolt",
+	"Spe":43,
+	"Total":500,
+	"Type I":"Bug",
+	"EXPV":225,
+	"Catch":45
+  },
+  {
+	"Nat":739,
+	"Pokemon":"Crabrawler",
+	"Spe":63,
+	"Total":338,
+	"Type I":"Fighting",
+	"EXPV":68,
+	"Catch":225
+  },
+  {
+	"Nat":740,
+	"Pokemon":"Crabominable",
+	"Spe":43,
+	"Total":478,
+	"Type I":"Fighting",
+	"EXPV":167,
+	"Catch":60
   }
 ]};
