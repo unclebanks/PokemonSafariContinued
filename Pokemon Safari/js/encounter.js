@@ -75,9 +75,50 @@ function getLocation() {
 		case 'jfish':
 			_location = 'beach1';
 			break;
+			
+//////////HOENN REGION
+
+		case 'pwoods':
+			_location = 'forest2';
+			break;
+		case 'gcave':
+			_location = 'tunnel2';
+		case 'fpath':
+			_location = 'tunnel2';
+			break;
+		case 'mfalls':
+			_location = 'tunnel2';
+			break;
+		case 'nmville':
+			_location = 'city2';
+			break;
+		case 'hszone':
+			_location = 'park2';
+			break;
+		case 'mpyre':
+			_location = 'glacier2';
+			break;
+		case 'spillar':
+			_location = 'tower2';
+			break;
+		case 'schamber':
+			_location = 'tunnel2';
+			break;
+		case 'seacave':
+			_location = 'tunnel2';
+			break;
+		case 'hvroad':
+			_location = 'tunnel2';
+			break;
+		case 'hfish':
+			_location = 'beach2';
+			break;
+		
+///////////DEFAULT
+
 		default:
 			_location = 'forest0';
-			break;	
+			break;
 			}
 		return _location;
 	}

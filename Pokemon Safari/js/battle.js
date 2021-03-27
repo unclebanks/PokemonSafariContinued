@@ -213,8 +213,8 @@ function initializeVars(){
 	}
 
 	var tryForSpecialPokemon = function () {
-		if (Math.random() < .05 && inKanto) {return 151;}
-		else if (_location == 'city' && Math.random() < 0.01) {return 150;}
+		if (Math.random() < 0.05 && inKanto) {return 151;}
+///		else if (_location == 'city0' && Math.random() < 1) {return 150;}
 		else if (Math.random() < 0.05 && inJohto){ 
 			return 243 + Math.floor(Math.random() * 3); // Raikou, Entei and Suicune
 		}
@@ -231,7 +231,6 @@ function initializeVars(){
 			specialThird = getSpecialThird();
 			if (specialThird) {return specialThird;}
 		}
-		else if (Math.random() < 0.01) {return 399;}
 
 		//if none of the above
 		return 0;
