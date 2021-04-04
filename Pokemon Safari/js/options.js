@@ -47,12 +47,12 @@ function restore_options() {
 	for (i = 0; i < select.children.length; i++) {
 		child = select.children[i];
 		if (child.value == favorite) {
-			child.selected = "true";
+			child.selected = "false";
 			break;
 		}
 	}
 
-	if (!localStorage.style) {localStorage.style = '3d'; }
+	if (!localStorage.style) {localStorage.style = '2d'; }
 	favorite = localStorage.style;
 	select = document.getElementById("style");
 	

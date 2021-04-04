@@ -80,7 +80,7 @@ function getLocation() {
 
 var setup = function(e) {
 	if(!localStorage._location){
-		localStorage._location = 'forest';
+		localStorage._location = 'vforest';
 	}
 	_location = getLocation();
 	chrome.browserAction.setIcon({"path":"/images/icons/toolbarRegion/"+_location+ ".png"});
