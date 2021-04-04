@@ -1,2 +1,2 @@
 # PokemonSafariContinued
- Reboot of PokemonSafari
+ Continuation of PokemonSafari
