@@ -77,18 +77,6 @@ Sea Pokémon
 
 278  Wingull
 279  Pelipper
-366  Clamperl
-367  Huntail
-368  Gorebyss
-370  Luvdisc
-363  Spheal
-364  Sealeo
-365  Walrein
-318  Carvanha
-319  Sharpedo
-320  Wailmer
-321  Wailord
-369  Relicanth
 345  Lileep
 346  Cradily
 
