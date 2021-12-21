@@ -256,10 +256,8 @@ function initializeVars(){
 		while (s.length < 1)
 		s = '0' + s;
 		if (shiny) {
-			if (localStorage.style == '2d')
 			return '/images/pokemon/shinypokemon/' + s + '.png';
 		}
-		if (localStorage.style == '2d')
 		return '/images/pokemon/pokemon/' + s + '.png';
 	};
 

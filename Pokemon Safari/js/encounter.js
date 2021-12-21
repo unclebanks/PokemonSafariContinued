@@ -140,7 +140,7 @@ var setAlarm = function(e) {
 	else if(localStorage.frequency == "random") 
 		chrome.alarms.create("", {"delayInMinutes":(Math.random() * 120)});
 	else
-		chrome.alarms.create("", {"delayInMinutes":.2});
+		chrome.alarms.create("", {"delayInMinutes":1});
 };
 
 var pokemonFound = function(e) {

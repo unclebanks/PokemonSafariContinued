@@ -3,15 +3,9 @@ var urlifyNumber = function(dexNum, isShiny) {
   while (dexNumString.length < 1)
     dexNumString = '0' + dexNumString;
   if (isShiny) {
-      if (localStorage.style == '2d')
-        return '/images/pokemon/shinypokemon/' + dexNumString + '.png';
-      else
-        return 'http://www.serebii.net/Shiny/XY/' + dexNumString + '.png';
+      return '/images/pokemon/shinypokemon/' + dexNumString + '.png';
   }
-  if (localStorage.style == '2d')
-    return '/images/pokemon/pokemon/' + dexNumString + '.png';
-  else
-    return 'http://www.serebii.net/xy/pokemon/' + dexNumString + '.png';
+  return '/images/pokemon/pokemon/' + dexNumString + '.png';
 };
 
 
